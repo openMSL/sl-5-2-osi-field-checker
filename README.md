@@ -37,13 +37,13 @@ Protobuf needs to be installed on your systems as a dependency.
 ### Build Model in Ubuntu 18.04 / 20.04 / 22.04
 
 1. Clone this repository with submodules:
-    
+
     ```bash
     git clone https://github.com/openMSL/sl-1-5-sensor-model-testing.git --recurse-submodules
     ```
-   
+
 2. Build the model by executing in the extracted project root directory:
-    
+
     ```bash
     mkdir cmake-build
     cd cmake-build
@@ -51,7 +51,7 @@ Protobuf needs to be installed on your systems as a dependency.
     cmake -DCMAKE_BUILD_TYPE=Release -DFMU_INSTALL_DIR:PATH=/tmp ..
     cmake --build .
     ```
-   
+
 3. Take FMU from `FMU_INSTALL_DIR`
 
 The OSI Field Checker FMU can now be used in a co-simulation connected to the output of the model under test.

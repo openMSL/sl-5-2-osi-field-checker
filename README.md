@@ -39,7 +39,7 @@ Protobuf needs to be installed on your systems as a dependency.
 1. Clone this repository with submodules:
 
     ```bash
-    git clone https://github.com/openMSL/sl-1-5-sensor-model-testing.git --recurse-submodules
+    git clone https://github.com/openMSL/sl-5-2-osi-field-checker.git --recurse-submodules
     ```
 
 2. Build the model by executing in the extracted project root directory:

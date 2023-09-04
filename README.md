@@ -1,4 +1,4 @@
-# sl-5-2-osi-field-checker
+# SL-5-2 OSI Field Checker
 
 This FMU checks if fields are missing in a received SensorData.
 It is meant to be used in a co-simulation connected to the output of the model under test.
